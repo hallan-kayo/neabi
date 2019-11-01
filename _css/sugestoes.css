@@ -1,0 +1,63 @@
+@charset "utf8";
+
+body{
+    background-color:white;
+}
+
+.container-fluid header{
+    background-color: rgba(241, 237, 237, 0);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#logoIfrn{
+    width: 45%;
+}
+
+#menuPrincipal #navbarmenu .navbar .navbar-toggler{
+    /* text-align: right; */
+    position: fixed;
+    right: 0;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+ul#list{
+    margin-top: 40px;
+    margin-left: 10px;
+    list-style-type: none;
+}
+
+ul#list ul{
+    display: none;
+    background-color: #F2F2F2;
+    border-radius: 10px;
+    opacity: 0.5;
+    list-style: none;
+    padding-top: 5%;
+    padding-left: 0px;
+    padding-bottom: 5%;
+}
+
+li a{
+    font-family: Georgia, 'Times New Roman', Times, serif;;
+    font-size: 20pt;
+    padding: 10px;
+    margin: 0px 15px;
+    border-radius: 3px;
+    color: #000000;
+}
+
+a:link{
+    text-decoration:none;
+}
+
+li a:hover{
+    color: grey;
+}
+
+
+
+footer{
+    background-color: aqua;
+}
