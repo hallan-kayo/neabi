@@ -1,4 +1,6 @@
 @charset "utf8";
+	
+* { margin: 0; padding: 0; }
 
 body{
     background-color:white;
@@ -14,65 +16,80 @@ body{
     width: 45%;
 }
 
-#menuPrincipal #navbarmenu .navbar .navbar-toggler{
-    /* text-align: right; */
-    position: fixed;
-    right: 0;
-    margin-right: 20px;
-    text-decoration: none;
-}
-
-ul#list{
-    margin-top: 40px;
-    margin-left: 10px;
-    list-style-type: none;
-}
-
-ul#list ul{
-    display: none;
-    background-color: #F2F2F2;
-    border-radius: 10px;
-    opacity: 0.5;
-    list-style: none;
-    padding-top: 5%;
-    padding-left: 0px;
-    padding-bottom: 5%;
-}
-
-li a{
-    font-family: Georgia, 'Times New Roman', Times, serif;;
-    font-size: 20pt;
-    padding: 10px;
-    margin: 0px 15px;
-    border-radius: 3px;
-    color: #000000;
-}
-
-a:link{
-    text-decoration:none;
-}
-
-li a:hover{
-    color: grey;
-}
-
 .img-fluid{
     width: 100%;
 }
 
 #imgcorpo{
-    width: 100%;
-    margin-top: 100px;
+    width: 90%;vertical-align: center;
 }
 
-#resumoNeabi{
-    margin-top: 10px;
+#resumoNeabi{ 
     padding: 30px;
     background-color: white;
     border-radius: 15px;
     text-align: justify;
 }
 
-footer{
-    background-color: aqua;
+footer #infosite{
+    background-image: url("../_img/fundorodape.jpeg");
+    background-size: 100%;
+    background-repeat: repeat-x;
+}
+
+footer #infosite img{
+    margin-top: -10px;
+}
+
+footer #infosite p{
+    color: white;
+    text-align: center;
+}
+
+#ifrnlogo{
+    width: 15%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    
+}
+
+footer #adicionais{
+    background-color: rgb(46, 46, 46);
+    padding: 10px;
+    color: white;
+}
+
+footer #adicionais h3{
+    display: flex;
+    justify-content: center;
+}
+
+footer #adicionais #arquivos {
+    display: block;
+    justify-content: center;
+}
+
+#feitopor{
+    height: 100%;
+    min-height: 100%;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    text-align: justify; 
+    color: white;
+}
+
+div #center{
+    height: 100%;
+    min-height: 100%;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
 }
