@@ -18,6 +18,7 @@ body{
 
 .img-fluid{
     width: 100%;
+
 }
 
 #imgcorpo{
@@ -52,6 +53,8 @@ footer #infosite p{
     margin-right: auto;
     display: flex;
     
+
+
 }
 
 footer #adicionais{
@@ -91,5 +94,43 @@ div #center{
     -webkit-align-items: center;
     align-items: center;
     -webkit-justify-content: center;
+}
+
+footer #infosite{
+    background-color: rgb(80, 79, 79);
+    padding: 30px;
+
+}
+
+footer #infosite img{
+    margin-top: -10px;
+}
+
+footer #infosite p{
+    color: white;
+    text-align: center;
+}
+
+#ifrnlogo{
+    width: 15%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    
+}
+
+footer #adicionais{
+    background-color: rgb(46, 46, 46);
+    padding: 10px;
+    color: white;
+}
+
+footer #adicionais h1{
+    display: flex;
+    justify-content: center;
+}
+
+footer #adicionais #arquivos {
+    display: block;
     justify-content: center;
 }
