@@ -89,7 +89,6 @@ footer #adicionais #arquivos {
 div #center{
     height: 100%;
     min-height: 100%;
-    display: -webkit-flex;
     display: flex;
     -webkit-align-items: center;
     align-items: center;
